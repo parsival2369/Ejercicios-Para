@@ -1,0 +1,9 @@
+Algoritmo ImprimirMultiplosDe5
+    
+    Para i = 35 Hasta 0 Con Paso -1 Hacer
+
+        Si i % 5 = 0 Entonces
+            Escribir i
+        FinSi
+    FinPara
+FinAlgoritmo
