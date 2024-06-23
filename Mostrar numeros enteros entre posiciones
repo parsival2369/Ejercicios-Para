@@ -1,0 +1,21 @@
+Algoritmo MostrarNumerosEntrePosiciones
+    Definir inicial, final, i como Entero
+    
+    Escribir "Ingrese la posición inicial:"
+    Leer inicial
+    
+    Escribir "Ingrese la posición final:"
+    Leer final
+    
+    Escribir "Los números entre las posiciones ", inicial, " y ", final, " son:"
+  
+    Si inicial <= final Entonces
+		
+        Para i = inicial Hasta final   Paso 1 Hacer
+            Escribir i
+        FinPara
+    Sino
+        Escribir "Error: La posición inicial debe ser menor o igual que la posición final."
+    FinSi
+    
+FinAlgoritmo
